@@ -1,13 +1,17 @@
 package com.muyang.recyclerviewdemo;
 
+import android.widget.Button;
 import android.widget.ImageView;
+
+import java.io.Serializable;
 
 /**
  * Created by muyang on 2016/5/12.
  * 数据实体类
  */
-public class Model {
+public class Model implements Serializable {
 
+    private static final long serialVersionUID = -1131744553748448647L;
     private String title;
     private String desc;
     private int imgId;
