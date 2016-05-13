@@ -28,18 +28,18 @@ public class MainActivity extends AppCompatActivity {
 
     private void initData() {
         modelList = new ArrayList<>();
-        modelList.add(new Model(getString(R.string.Jiraiya), getString(R.string.Grandiloquence), R.mipmap.header));
-        modelList.add(new Model(getString(R.string.Ninja), getString(R.string.Recall), R.mipmap.header));
-        modelList.add(new Model(getString(R.string.Naruto), getString(R.string.Story), R.mipmap.header));
-        modelList.add(new Model(getString(R.string.Failure), getString(R.string.Great), R.mipmap.header));
-        modelList.add(new Model(getString(R.string.Jiraiya), getString(R.string.Grandiloquence), R.mipmap.header));
-        modelList.add(new Model(getString(R.string.Ninja), getString(R.string.Recall), R.mipmap.header));
-        modelList.add(new Model(getString(R.string.Naruto), getString(R.string.Story), R.mipmap.header));
-        modelList.add(new Model(getString(R.string.Failure), getString(R.string.Great), R.mipmap.header));
-        modelList.add(new Model(getString(R.string.Jiraiya), getString(R.string.Grandiloquence), R.mipmap.header));
-        modelList.add(new Model(getString(R.string.Ninja), getString(R.string.Recall), R.mipmap.header));
-        modelList.add(new Model(getString(R.string.Naruto), getString(R.string.Story), R.mipmap.header));
-        modelList.add(new Model(getString(R.string.Failure), getString(R.string.Great), R.mipmap.header));
+        modelList.add(new Model(getString(R.string.Jiraiya), getString(R.string.Grandiloquence), R.mipmap.first));
+        modelList.add(new Model(getString(R.string.Ninja), getString(R.string.Recall), R.mipmap.first));
+        modelList.add(new Model(getString(R.string.Naruto), getString(R.string.Story), R.mipmap.second));
+        modelList.add(new Model(getString(R.string.Failure), getString(R.string.Great), R.mipmap.first));
+        modelList.add(new Model(getString(R.string.Jiraiya), getString(R.string.Grandiloquence), R.mipmap.second));
+        modelList.add(new Model(getString(R.string.Ninja), getString(R.string.Recall), R.mipmap.first));
+        modelList.add(new Model(getString(R.string.Naruto), getString(R.string.Story), R.mipmap.first));
+        modelList.add(new Model(getString(R.string.Failure), getString(R.string.Great), R.mipmap.second));
+        modelList.add(new Model(getString(R.string.Jiraiya), getString(R.string.Grandiloquence), R.mipmap.first));
+        modelList.add(new Model(getString(R.string.Ninja), getString(R.string.Recall), R.mipmap.first));
+        modelList.add(new Model(getString(R.string.Naruto), getString(R.string.Story), R.mipmap.first));
+        modelList.add(new Model(getString(R.string.Failure), getString(R.string.Great), R.mipmap.second));
 
     }
 }

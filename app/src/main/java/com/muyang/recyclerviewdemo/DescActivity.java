@@ -25,8 +25,8 @@ public class DescActivity extends AppCompatActivity {
         manage_title = (TextView) findViewById(R.id.manage_title);
         manage_content = (TextView) findViewById(R.id.manage_content);
 
-        Intent intent=getIntent();
-        Model model= (Model) intent.getSerializableExtra("Desc");
+        Intent intent = getIntent();
+        Model model = (Model) intent.getSerializableExtra("Desc");
         manage_image.setImageResource(model.getImgId());
         manage_title.setText(model.getTitle());
         manage_content.setText(getString(R.string.DescContent));

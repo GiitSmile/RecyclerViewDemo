@@ -33,7 +33,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_alignParentTop="true"
-                    android:background="@mipmap/header"
+                    android:background="@mipmap/first"
                     android:scaleType="centerCrop" />
 
                 <TextView
