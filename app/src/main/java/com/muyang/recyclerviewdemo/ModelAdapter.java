@@ -31,7 +31,7 @@ public class ModelAdapter extends RecyclerView.Adapter<ModelAdapter.MyViewHolder
         public TextView title, desc;
         public ImageView photo;
         private Button share;
-        private Button readmore;
+        private Button readMore;
         private CardView cardView;
 
         public MyViewHolder(View itemView) {
@@ -40,7 +40,7 @@ public class ModelAdapter extends RecyclerView.Adapter<ModelAdapter.MyViewHolder
             desc = (TextView) itemView.findViewById(R.id.desc);
             photo = (ImageView) itemView.findViewById(R.id.photo);
             share = (Button) itemView.findViewById(R.id.btn_share);
-            readmore = (Button) itemView.findViewById(R.id.btn_more);
+            readMore = (Button) itemView.findViewById(R.id.btn_more);
             cardView = (CardView) itemView.findViewById(R.id.card_view);
         }
     }
@@ -76,7 +76,7 @@ public class ModelAdapter extends RecyclerView.Adapter<ModelAdapter.MyViewHolder
                 mContext.startActivity(Intent.createChooser(intent, modelList.get(position).getTitle()));
             }
         });
-        holder.readmore.setOnClickListener(new View.OnClickListener() {
+        holder.readMore.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(mContext, DescActivity.class);

@@ -8,6 +8,7 @@ import android.widget.TextView;
 
 /**
  * Created by muyang on 2016/5/13.
+ *
  */
 public class DescActivity extends AppCompatActivity {
 
@@ -17,7 +18,6 @@ public class DescActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-
         super.onCreate(savedInstanceState);
         setContentView(R.layout.desc_layout);
 

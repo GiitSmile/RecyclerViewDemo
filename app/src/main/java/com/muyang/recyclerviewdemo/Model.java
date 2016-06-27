@@ -1,6 +1,5 @@
 package com.muyang.recyclerviewdemo;
 
-import android.widget.Button;
 import android.widget.ImageView;
 
 import java.io.Serializable;
